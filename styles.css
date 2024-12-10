@@ -1,0 +1,44 @@
+body{
+
+        display: grid;
+        place-items: center; /* Centra horizontal y verticalmente */
+        height:10vh;
+        margin-top: 200px;
+
+    background-color: #7192BE;
+}
+/* #clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    border: 2px solid;
+
+} */
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+#saveBtn{
+    font-family: sans-serif;
+    font-size: 3em;
+    display: grid;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 10px 10px 1em;
+}
+#saveBtn:hover{
+    background-color: rgb(149, 149, 149);
+    border-color: rgb(97, 97, 97);
+}
+#savedTime{
+    font-family: sans-serif;
+    font-size: 2em;
+    display: grid;  
+    text-align: center;
+    color: white;
+}
